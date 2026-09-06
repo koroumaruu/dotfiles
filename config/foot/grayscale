@@ -1,5 +1,6 @@
 [colors-dark]
-background=030302
+#background=030302
+background=181818
 foreground=ecebe1
 
 regular0=030302

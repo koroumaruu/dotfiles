@@ -19,7 +19,7 @@ alias upd='
 '
 
 #install stuff
-alias cfg='sudoedit /etc/nixos/configuration.nix'
+alias cfg='nvim ~/dotfiles/configuration.nix'
 alias nrs='sudo nixos-rebuild switch'
 alias src='nh search'
 

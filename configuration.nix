@@ -15,6 +15,7 @@ environment.systemPackages = with pkgs; [
     kitty
     xdg-utils
     xdg-desktop-portal-wlr
+    gimp
     wev
     gh
     nvd
@@ -73,7 +74,7 @@ environment.systemPackages = with pkgs; [
 
 # services
     services.openssh.enable = true;
-    # services.power-profiles-daemon.enable = true;
+    services.power-profiles-daemon.enable = true;
     services.samba.enable = true;
     services.tailscale.enable = true;
     programs.sway.enable = true;
@@ -135,35 +136,35 @@ environment.systemPackages = with pkgs; [
     
 # power management 
     services.tlp = {
-	enable = true;
-	settings = {
-	    CPU_SCALING_GOVERNOR_ON_AC = "performance";
-	    CPU_SCALING_GOVERNOR_ON_BAT = "powersave";
-
-            CPU_ENERGY_PERF_POLICY_ON_AC = "performance";
-            CPU_ENERGY_PERF_POLICY_ON_BAT = "power";
-
-            CPU_MIN_PERF_ON_AC = 0;
-            CPU_MAX_PERF_ON_AC = 100;
-            CPU_MIN_PERF_ON_BAT = 0;
-            CPU_MAX_PERF_ON_BAT = 60;
-	};
+	enable = false;
+	# settings = {
+	#     CPU_SCALING_GOVERNOR_ON_AC = "performance";
+	#     CPU_SCALING_GOVERNOR_ON_BAT = "powersave";
+	#
+	#            CPU_ENERGY_PERF_POLICY_ON_AC = "performance";
+	#            CPU_ENERGY_PERF_POLICY_ON_BAT = "power";
+	#
+	#            CPU_MIN_PERF_ON_AC = 0;
+	#            CPU_MAX_PERF_ON_AC = 100;
+	#            CPU_MIN_PERF_ON_BAT = 0;
+	#            CPU_MAX_PERF_ON_BAT = 60;
+	# };
     };
 
     services.thinkfan = {
-	enable = true;
-	settings = {
-	    fan_speed = "level auto";
-	    sensors = [
-		{ name = "cpu"; hwmon = "/sys/class/hwmon/hwmon0/temp1_input"; }
-	    ];
-	    levels = [
-              [0 0 55]    # Fan off below 55°
-              [1 50 60]   # Low speed 50-60°C
-              [3 55 65]   # Medium speed
-              [7 60 85]   # Max speed
-	    ];
-	};
+	enable = false;
+	# settings = {
+	#     fan_speed = "level auto";
+	#     sensors = [
+	# 	{ name = "cpu"; hwmon = "/sys/class/hwmon/hwmon0/temp1_input"; }
+	#     ];
+	#     levels = [
+	#              [0 0 55]    # Fan off below 55°
+	#              [1 50 60]   # Low speed 50-60°C
+	#              [3 55 65]   # Medium speed
+	#              [7 60 85]   # Max speed
+	#     ];
+	# };
     };
 
     nix.settings.download-buffer-size = 524288000; #500mb

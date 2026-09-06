@@ -43,7 +43,7 @@ input "8146:32773:Melfas_LGDisplay_Incell_Touch" {
 
 #effects
 for_window [app_id="kitty"] opacity 0.9
-for_window [app_id="foot"] opacity 0.8
+for_window [app_id="foot"] opacity 1
 for_window [app_id="neovim"] opacity 0.9
 
 # ONLY ENABLE IF YOURE USING SWAYFX FORK INSTEAD OF VANILLA SWAY OTHERWISE THESE ARE POINTLESS

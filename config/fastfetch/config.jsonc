@@ -27,61 +27,61 @@
 	{
 	"type": "OS",
 	"key": "OS > ",
-	"keyColor": "#44cccc"
+	"keyColor": ""
 	},
 	{
 	"type": "Kernel",
 	"key": " |- Kernel >",
-	"keyColor": "#44cccc"
+	"keyColor": ""
 	},
 	{
 	"key": " |- Age >", 
 	"type": "command", 
 	"text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days old",
-	"keyColor": "#44cccc"
+	"keyColor": ""
 	},
 	 // {
 	 // "type": "Packages",
 	 // "key": " |- Pkgs >",
 	 // "format": "{6} (xbps)",
-	 // "keyColor": "#44cccc"
+	 // "keyColor": ""
 	 // },
 	"break",
 	{
 	"type": "Host",
 	"key": "Laptop >",
 	"format": "{1}",
-	"keyColor": "#44cccc"
+	"keyColor": ""
 	},
 	{
 	"type": "Cpu",
 	"key": " |- CPU >",
-	"keyColor": "#44cccc"
+	"keyColor": ""
 	},
 	//{
 	//"type": "gpu",
 	//"key": " |- GPU >",
-	//"keyColor": "#44cccc"
+	//"keyColor": ""
 	//},
 	{
 	"type": "memory",
 	"key": " |- Memory >",
-	"keyColor": "#44cccc"
+	"keyColor": ""
 	},
 	{
 	"type": "wm",
 	"key": " |- WM >",
-	"keyColor": "#44cccc"
+	"keyColor": ""
 	},
 	{
 	"type": "disk",
 	"key": " |- Disk >",
-	"keyColor": "#44cccc"
+	"keyColor": ""
 	},
 	{
 	"type": "localip",
 	"key": " |- IpAddr >", 
-	"keyColor": "#44cccc"
+	"keyColor": ""
 	},
 	
         "break",
