@@ -1,0 +1,24 @@
+[colors-dark]
+background=0d0907 #bg color
+foreground=a89984 #text color
+regular0=242423 #black
+regular1=EA6962 #red
+regular2=A9B665 #green
+regular3=E78A4E #yellow
+regular4=7DAEA3 #blue 
+regular5=D3869B #purple
+regular6=89b482 #teal
+regular7=685D52 #grey
+
+bright0=504A44
+bright1=ea6962
+bright2=a9b665
+bright3=d8a657
+bright4=7daea3
+bright5=d3869b
+bright6=89b482
+bright7=685D52
+17=f5e0dc
+
+selection-foreground=cdd6f4
+selection-background=414356

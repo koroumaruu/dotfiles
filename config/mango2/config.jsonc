@@ -1,0 +1,71 @@
+{
+    "spacing": 4,
+    "position": "top",
+    "height":25,
+    "modules-left": ["ext/workspaces", "dwl/window"],
+    "modules-right": ["custom/seperator2", "pulseaudio", "custom/seperator2", "battery", "custom/seperator2", "clock", "custom/seperator2", "tray"],
+
+		/*
+		MODULES
+		*/
+    "tray": {
+        "spacing": 5
+    },
+
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>[{:%Y %B}]</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "{:%I:%M %p}",
+        "format-alt": "[{:%Y-%m-%d}]"
+    },
+    "cpu": {
+        "format": "[CPU:{usage}%]",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "RAM {used}/{total}"
+    },
+
+    "custom/seperator2": {
+	"format": "  ", //     
+	"interval": "once",
+	"tooltip": false
+    },
+
+    "battery": {
+	"bat": "BAT0",
+	"interval": 60,
+	"states": {
+		"warning": 20,
+		"critical": 15
+	},
+	"events": {
+		"on-discharging-warning": "notify-send -u normal 'Low Battery'",
+		"on-discharging-critical": "notify-send -u critical 'Very Low Battery'",
+		"on-charging-100": "notify-send -u normal 'Battery Full!'"
+	},
+	"format": "BAT {capacity}",
+	"format-charging": " BAT {capacity}",
+	"format-icons": ["", "", "", "", ""],
+	"max-length": 25
+    },
+
+    "pulseaudio": {
+        "format": "VOL {volume}",
+        "format-muted": "MUT {volume}",
+        "on-click": "pavucontrol"
+    },
+
+    "dwl/window": {
+	"format": "[{layout}]"
+    },
+
+    "ext/workspaces": {
+    "format": "{icon}",
+    "ignore-hidden": true,
+    "on-click": "activate",
+    "on-click-right": "deactivate",
+    "sort-by-id": true
+    }
+}
+

@@ -1,0 +1,35 @@
+/*@define-color base00 #14161b; */ /*background for empty tags and right modules*/
+/*@define-color base01 #0a0b0d;*/  
+/*@define-color base02 #24262b;*/ /*background for focused tags and middle bar*/
+/*@define-color base03 #bbbbbb;*/ /*Text color for Workspace and right modules*/
+/*@define-color base04 #ffffff;*/
+/*@define-color base05 #d8d8d8;*/
+/*@define-color base06 #e8e8e8;*/
+/*@define-color base07 #f8f8f8;*/
+/*@define-color base08 #ab4642;*/
+/*@define-color base09 #dc9656;*/
+/*@define-color base0A #f7ca88;*/
+/*@define-color base0B #a1b56c;*/
+/*@define-color base0C #86c1b9;*/
+/*@define-color base0D #7cafc2;*/
+/*@define-color base0E #ba8baf;*/
+/*@define-color base0F #a16946;*/
+
+
+@define-color base00 #000000; /*background for empty tags and right modules*/
+@define-color base01 #0a0b0d; 
+@define-color base02 #121212; /*background for focused tags and middle bar*/
+@define-color base03 #ffffff; /*Text color for Workspace and right modules*/
+@define-color base04 #ffffff;
+@define-color base05 #d8d8d8;
+@define-color base06 #e8e8e8;
+@define-color base07 #f8f8f8;
+@define-color base08 #ab4642;
+@define-color base09 #dc9656;
+@define-color base0A #f7ca88;
+@define-color base0B #a1b56c;
+@define-color base0C #86c1b9;
+@define-color base0D #7cafc2;
+@define-color base0E #ba8baf;
+@define-color base0F #a16946;
+

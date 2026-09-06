@@ -1,0 +1,230 @@
+xwayland enable
+exec --no-startup-id dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
+set $mod Mod4
+set $left h
+set $down j
+set $up k
+set $right l
+set $term foot
+set $menu rofi -show drun
+set $filemanager thunar
+set $termfilemanager foot yazi
+set $editor foot nvim
+set $anime foot -e sh -c "cd ~/ani-cli && ./ani-cli"
+
+#adds a network applet to your system tray if you have it installed (if youre using nm-applet that is, otherwise delete this line)
+exec_always --no-startup-id nm-applet &
+
+#only use if youre using the auto tiling script otherwise keep it commented or delete
+#exec_always --no-startup-id autotiling -w 1 2 3 4 5 6 7 8 9
+
+#(make sure wlr starts first)
+exec --no-startup-id /usr/lib/xdg-desktop-portal-wlr &
+exec --no-startup-id /usr/lib/xdg-desktop-portal -r
+
+#wallpaper
+# output * bg ~/walls/tree.jpg fill
+#OR
+#install waypaper for wallaper (NEEDS SWAYBG)
+exec_always --no-startup-id waypaper --restore
+
+font Pango:JetBrains mono 8
+
+#touchpad sensitivity
+input "2:7:SynPS/2_Synaptics_Touchpad" {
+	pointer_accel 0.0
+	accel_profile "flat"
+}
+#turns off touchscreen because bleh
+input "8146:32773:Melfas_LGDisplay_Incell_Touch" {
+	events disabled	
+}
+
+#effects
+for_window [app_id="kitty"] opacity 0.9
+for_window [app_id="foot"] opacity 0.8
+for_window [app_id="neovim"] opacity 0.9
+
+# ONLY ENABLE IF YOURE USING SWAYFX FORK INSTEAD OF VANILLA SWAY OTHERWISE THESE ARE POINTLESS
+# blur enable 
+# blur_xray disable
+# blur_passes 2
+# blur_radius 3
+# shadows disable
+# corner_radius 8
+
+# Example configuration:
+   output eDP-1 scale 1
+# You can get the names of your outputs by running: swaymsg -t get_outputs
+
+bar {
+	swaybar_command waybar
+}
+
+  input type:keyboard {
+      xkb_layout "us",
+      repeat_rate  35,
+      repeat_delay 200
+  }
+#
+### Key bindings
+
+    # Start a terminal
+    bindsym $mod+Return exec $term
+
+    # Kill focused window
+    bindsym $mod+Shift+q kill
+
+    # Start your launcher
+    bindsym $mod+d exec $menu
+
+    # Keybinds
+    bindsym $mod+t exec $filemanager
+    bindsym $mod+y exec $termfilemanager
+    bindsym $mod+g exec $anime
+    bindsym $mod+n exec $editor
+
+    # Screenshots and colorpicker (Install the sway-contrib package on your distro, use hyprpicker if you need an alternative colorpicker beyond grimpicker)
+    bindsym $mod+Shift+s exec grimshot copy area
+    bindsym $mod+Shift+a exec grimshot copy active --notify
+    bindsym $mod+Shift+d exec grimshot copy output --notify
+    bindsym $mod+p exec grimshot copy area
+    bindsym $mod+Shift+x exec hyprpicker --autocopy
+
+    floating_modifier $mod normal
+
+    # Reload the cfg file 
+    bindsym $mod+Shift+r reload
+
+    # Exit sway 
+    bindsym $mod+Shift+e exec swaynag -t warning -m 'This will log you out' -B 'Yeah sure, whatever' 'swaymsg exit'
+#
+# Moving around:
+#
+    # Move your focus around
+    bindsym $mod+$left focus left
+    bindsym $mod+$down focus down
+    bindsym $mod+$up focus up
+    bindsym $mod+$right focus right
+    # Or use $mod+[up|down|left|right]
+    bindsym $mod+Left focus left
+    bindsym $mod+Down focus down
+    bindsym $mod+Up focus up
+    bindsym $mod+Right focus right
+
+    # Move the focused window with the same, but add Shift
+    bindsym $mod+Shift+$left move left
+    bindsym $mod+Shift+$down move down
+    bindsym $mod+Shift+$up move up
+    bindsym $mod+Shift+$right move right
+    # Ditto, with arrow keys
+    bindsym $mod+Shift+Left move left
+    bindsym $mod+Shift+Down move down
+    bindsym $mod+Shift+Up move up
+    bindsym $mod+Shift+Right move right
+#
+# Workspaces:
+#
+    # Switch to workspace
+    bindsym $mod+1 workspace number 1
+    bindsym $mod+2 workspace number 2
+    bindsym $mod+3 workspace number 3
+    bindsym $mod+4 workspace number 4
+    bindsym $mod+5 workspace number 5
+    bindsym $mod+6 workspace number 6
+    bindsym $mod+7 workspace number 7
+    bindsym $mod+8 workspace number 8
+    bindsym $mod+9 workspace number 9
+    bindsym $mod+0 workspace number 10
+    # Move focused container to workspace
+    bindsym $mod+Shift+1 move container to workspace number 1
+    bindsym $mod+Shift+2 move container to workspace number 2
+    bindsym $mod+Shift+3 move container to workspace number 3
+    bindsym $mod+Shift+4 move container to workspace number 4
+    bindsym $mod+Shift+5 move container to workspace number 5
+    bindsym $mod+Shift+6 move container to workspace number 6
+    bindsym $mod+Shift+7 move container to workspace number 7
+    bindsym $mod+Shift+8 move container to workspace number 8
+    bindsym $mod+Shift+9 move container to workspace number 9
+    bindsym $mod+Shift+0 move container to workspace number 10
+    # Note: workspaces can have any name you want, not just numbers.
+#
+# Layout stuff:
+#
+    # You can "split" the current object of your focus with
+    # $mod+b or $mod+v, for horizontal and vertical splits
+    # respectively.
+    bindsym $mod+b splith
+    bindsym $mod+v splitv
+
+    # Switch the current container between different layout styles
+    bindsym $mod+s layout stacking
+    bindsym $mod+w layout tabbed
+    bindsym $mod+e layout toggle split
+    
+    # Make the current focus fullscreen
+    bindsym $mod+f fullscreen
+
+    # Toggle the current focus between tiling and floating mode
+    bindsym $mod+Shift+space floating toggle
+
+    # Swap focus between the tiling area and the floating area
+    bindsym $mod+space focus mode_toggle
+
+    # Move focus to the parent container
+    # bindsym $mod+a focus parent
+#
+# Scratchpad:
+
+    # Move the currently focused window to the scratchpad
+    bindsym $mod+Shift+z move scratchpad
+    bindsym $mod+z scratchpad show
+#
+# Resizing containers:
+#
+mode "resize" {
+    bindsym $left resize shrink width 10px
+    bindsym $down resize grow height 10px
+    bindsym $up resize shrink height 10px
+    bindsym $right resize grow width 10px
+
+    bindsym Left resize shrink width 10px
+    bindsym Down resize grow height 10px
+    bindsym Up resize shrink height 10px
+    bindsym Right resize grow width 10px
+
+    # Return to default mode
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+r mode "resize"
+
+#gaps 
+smart_gaps on
+gaps inner 8
+gaps outer 5
+
+#borders
+default_border pixel 2
+default_floating_border pixel 1
+smart_borders on
+bindsym $mod+c border toggle 
+client.focused #ffffff #898989 #222222 #1c1c1c
+client.unfocused #2F3239 #2F3239 #FFFFFF #2F3239 
+#PLEASE DONT DELETE THIS
+client.focused_inactive #2F3239 #2F3239 #2F3239 #2F3239 
+
+#
+# Utilities:
+#
+    # Special keys to adjust volume via PulseAudio
+    bindsym --locked XF86AudioMute exec pactl set-sink-mute \@DEFAULT_SINK@ toggle
+    bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume \@DEFAULT_SINK@ -5%
+    bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume \@DEFAULT_SINK@ +5%
+    bindsym --locked XF86AudioMicMute exec pactl set-source-mute \@DEFAULT_SOURCE@ toggle
+    # Special keys to adjust brightness via brightnessctl
+    bindsym --locked XF86MonBrightnessDown exec brightnessctl set 10%-
+    bindsym --locked XF86MonBrightnessUp exec brightnessctl set 10%+
+
+include /etc/sway/config.d/*
