@@ -12,6 +12,9 @@ environment.systemPackages = with pkgs; [
     neovim
     git
     tmux
+    gdu
+    acpi
+    tldr
     kitty
     xdg-utils
     xdg-desktop-portal-wlr

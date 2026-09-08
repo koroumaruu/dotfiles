@@ -3,12 +3,10 @@
 # alias upd='sudo nix-channel --update && sudo nixos-rebuild switch --upgrade'
 
 alias upd='
-  echo "📦 Recording current system state..."
   OLD_SYS=$(readlink -f /nix/var/nix/profiles/system)
 
   sudo nix-channel --update && sudo nixos-rebuild switch --upgrade
 
-  echo "  Analyzing changes with nvd..."
   NEW_SYS=$(readlink -f /nix/var/nix/profiles/system)
 
   if [ "$OLD_SYS" = "$NEW_SYS" ]; then

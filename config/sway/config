@@ -31,13 +31,14 @@ exec_always --no-startup-id waypaper --restore
 
 font Pango:JetBrains mono 8
 
+#use swaymsg -t get_inputs for the names
 #touchpad sensitivity
-input "2:7:SynPS/2_Synaptics_Touchpad" {
-	pointer_accel 0.0
+input "2:10:TPPS/2_Elan_TrackPoint" {
+	pointer_accel 0.5
 	accel_profile "flat"
 }
 #turns off touchscreen because bleh
-input "8146:32773:Melfas_LGDisplay_Incell_Touch" {
+input "1267:11596:ELAN901C:00_04F3:2D4C" {
 	events disabled	
 }
 
@@ -206,11 +207,12 @@ gaps inner 8
 gaps outer 5
 
 #borders
-default_border pixel 2
+default_border pixel 3
 default_floating_border pixel 1
 smart_borders on
 bindsym $mod+c border toggle 
-client.focused #ffffff #898989 #222222 #1c1c1c
+# client.focused #ffffff #898989 #222222 #1c1c1c
+client.focused #ffffff #b7b7b3 #222222 #1c1c1c
 client.unfocused #2F3239 #2F3239 #FFFFFF #2F3239 
 #PLEASE DONT DELETE THIS
 client.focused_inactive #2F3239 #2F3239 #2F3239 #2F3239 
