@@ -12,6 +12,7 @@ environment.systemPackages = with pkgs; [
     neovim
     git
     tmux
+    librewolf-bin
     gdu
     acpi
     tldr

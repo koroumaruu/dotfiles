@@ -212,7 +212,7 @@ default_floating_border pixel 1
 smart_borders on
 bindsym $mod+c border toggle 
 # client.focused #ffffff #898989 #222222 #1c1c1c
-client.focused #ffffff #b7b7b3 #222222 #1c1c1c
+client.focused #ffffff #9c8d86 #222222 #1c1c1c
 client.unfocused #2F3239 #2F3239 #FFFFFF #2F3239 
 #PLEASE DONT DELETE THIS
 client.focused_inactive #2F3239 #2F3239 #2F3239 #2F3239 

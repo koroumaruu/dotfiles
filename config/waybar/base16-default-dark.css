@@ -1,7 +1,7 @@
-@define-color base00 #000000; /*background for empty tags and right modules*/
+@define-color base00 #0f0f0f; /*background for empty tags and right modules*/
 @define-color base01 #0a0b0d; 
-@define-color base02 #161616; /*background for focused tags and middle bar*/
-@define-color base03 #ffffff; /*Text color for Workspace and right modules*/
+@define-color base02 #1f1f1f; /*background for focused tags and middle bar*/
+@define-color base03 #f4decd; /*Text color for Workspace and right modules*/
 @define-color base04 #ffffff;
 @define-color base05 #d8d8d8;
 @define-color base06 #e8e8e8;
