@@ -3,7 +3,7 @@
     "position": "top",
     "height":18,
     "modules-left": ["sway/workspaces"],
-    "modules-right": ["custom/seperator2", "pulseaudio", "custom/seperator2", "cpu", "custom/seperator2", "battery", "custom/seperator2", "clock", "custom/seperator2", "tray"],
+    "modules-right": ["custom/seperator2", "pulseaudio", "custom/seperator2", "battery", "custom/seperator2", "clock", "custom/seperator2", "tray"],
 
     "tray": {
         "spacing": 3

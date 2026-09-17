@@ -1,25 +1,24 @@
 ### ----------ALIASES ---------- ###
+
+#update
+alias upd='sudo nala update && sudo nala upgrade'
+
+#installstuff
+alias pkgr='sudo nala remove'
+alias src='nala search'
+alias pkgin='sudo nala install'
+
+# pkg() {
+#     if [ "$1" = "install" ]; then
+# 	shift
+# 	doas xbps-install "$@"
+#     else
+# 	echo "Unknown pkg command: $1"
+#     fi
+
 #update
 # alias upd='sudo nix-channel --update && sudo nixos-rebuild switch --upgrade'
 
-alias upd='
-  OLD_SYS=$(readlink -f /nix/var/nix/profiles/system)
-
-  sudo nix-channel --update && sudo nixos-rebuild switch --upgrade
-
-  NEW_SYS=$(readlink -f /nix/var/nix/profiles/system)
-
-  if [ "$OLD_SYS" = "$NEW_SYS" ]; then
-    echo "󰄬 No packages were changed."
-  else
-    nvd diff "$OLD_SYS" "$NEW_SYS"
-  fi
-'
-
-#install stuff
-alias cfg='nvim ~/dotfiles/configuration.nix'
-alias nrs='sudo nixos-rebuild switch'
-alias src='nh search'
 
 alias ytd='yt-dlp -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --embed-metadata --convert-thumbnails jpg --ppa "ThumbnailsConvertor+ffmpeg_o:-vf crop=ih:ih" -o "%(playlist_index)03d - %(title)s.%(ext)s" --cookies-from-browser firefox'
 
@@ -56,7 +55,7 @@ alias swy='nvim ~/.config/sway/config'
 alias repopush='git push -u origin main'
 alias mng='nvim ~/.config/mango'
 alias walls='cd ~/wallpapers'
-alias pc='ssh korou@10.0.0.85'
+alias pc='ssh korou@10.0.0.4'
 alias nas='ssh korou@10.0.0.231'
 alias nv='nvim'
 
@@ -88,13 +87,14 @@ alias rs='sudo reboot'
 EDITOR=nvim
 alias grep='grep --color=auto'
 # PS1='[\u@\h \W]\$ '
-PS1='   \w  '
+PS1='   \w  '
 # export PS1="\\[\\e[32m\\] \\u@\\h:\\[\\e[34m\\]\\w\\[\\e[0m\\]\\$ "
 
 
 # Created by `pipx` on 2026-05-20 22:55:47
 export PATH="$PATH:/home/korou/.local/bin"
 export MANPAGER="nvim +Man!"
+export PATH="$HOME/.local/bin:$PATH"
 
 
 #makes it so that fastfetch executes automatically if its the only terminal open on the session, otherwise itll just be blank like any other terminal 
@@ -104,7 +104,7 @@ if [ "$TERMINAL_COUNT" -eq 1 ] && command -v fastfetch >/dev/null 2>&1; then
     fastfetch
 fi
 
-# . "$HOME/.cargo/env"
+. "$HOME/.cargo/env"
 
 ### ---------- DONT TOUCH THIS, IDK IF ITLL BREAK ---------- ###
 # ~/.bashrc
@@ -112,19 +112,3 @@ fi
 [[ $- != *i* ]] && return
 
 #imperative stuff
-#update
-# alias upd='doas xbps-install -Su'
-
-#install stuff
-# alias pkgr='doas xbps-remove'
-#alias src='xbps-query -Rs'
-# alias pkg='doas xbps-install -S'
-
-# pkg() {
-#     if [ "$1" = "install" ]; then
-# 	shift
-# 	doas xbps-install "$@"
-#     else
-# 	echo "Unknown pkg command: $1"
-#     fi
-

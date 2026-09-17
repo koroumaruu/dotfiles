@@ -4,7 +4,7 @@
     "logo": {
 	//"type": "sixel",
 	//"source": "/home/korou/Downloads/blackdeb.jpg",
-	"source": "nixos_small",
+	"source": "debian_small",
 	//"height": 14,
 	//"width": 27,
 	//"padding": {

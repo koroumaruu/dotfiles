@@ -5,3 +5,11 @@ text-color=#ffffff
 border-color=#999999dd
 border-size=1
 border-radius=0
+
+
+[app-name="vesktop"]
+on-notify=exec pw-play ~/sfx/lbnotification.mp3
+
+[app-name="concord"]
+on-notify=exec pw-play ~/sfx/lbnotification.mp3
+
