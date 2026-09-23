@@ -6,10 +6,5 @@ border-color=#999999dd
 border-size=1
 border-radius=0
 
-
-[app-name="vesktop"]
-on-notify=exec pw-play ~/sfx/lbnotification.mp3
-
-[app-name="concord"]
-on-notify=exec pw-play ~/sfx/lbnotification.mp3
-
+on-notify=exec mpv --no-terminal /home/korou/sfx/lbp.wav
+on-notify=exec mpv /home/korou/sfx/lbp.wav
