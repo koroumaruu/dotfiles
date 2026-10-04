@@ -1,6 +1,5 @@
 # Dotfiles
 
-Hello these are all my wallpapers i have gathered over the past few months
 ## Wallpapers
 
 <table>
