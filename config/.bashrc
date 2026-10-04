@@ -52,11 +52,10 @@ alias mngrc='nvim ~/.dotfiles/config/mango'
 alias footrc='nvim ~/.config/foot/foot.ini'
 alias music='cd ~/mp3s'
 alias swy='nvim ~/.config/sway/config'
+alias ga='git add .'
 alias repopush='git push -u origin main'
 alias mng='nvim ~/.config/mango'
 alias walls='cd ~/wallpapers'
-alias pc='ssh korou@10.0.0.4'
-alias nas='ssh korou@10.0.0.231'
 alias nv='nvim'
 
 #navigate files 
@@ -88,10 +87,10 @@ EDITOR=nvim
 alias grep='grep --color=auto'
 # PS1='[\u@\h \W]\$ '
 PS1='   \w  '
+
 # export PS1="\\[\\e[32m\\] \\u@\\h:\\[\\e[34m\\]\\w\\[\\e[0m\\]\\$ "
 
 
-# Created by `pipx` on 2026-05-20 22:55:47
 export PATH="$PATH:/home/korou/.local/bin"
 export MANPAGER="nvim +Man!"
 export PATH="$HOME/.local/bin:$PATH"
@@ -106,7 +105,6 @@ fi
 
 . "$HOME/.cargo/env"
 
-### ---------- DONT TOUCH THIS, IDK IF ITLL BREAK ---------- ###
 # ~/.bashrc
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
