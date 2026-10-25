@@ -6,5 +6,5 @@ border-color=#999999dd
 border-size=1
 border-radius=0
 
-on-notify=exec mpv --no-terminal /home/korou/sfx/lbp.wav
-on-notify=exec mpv /home/korou/sfx/lbp.wav
+#on-notify=exec mpv --no-terminal /home/korou/sfx/lbp.wav
+#on-notify=exec mpv /home/korou/sfx/lbp.wav
