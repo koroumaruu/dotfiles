@@ -61,152 +61,172 @@
   <tr>
     <td width="33%"><a href="config/walls/ash.png"><img src="config/walls/ash.png"></a></td>
     <td width="33%"><a href="config/walls/a-street-with-buildings-in-the-background.png"><img src="config/walls/a-street-with-buildings-in-the-background.png"></a></td>
-    <td width="33%"><a href="config/walls/autumn.png"><img src="config/walls/autumn.png"></a></td>
+    <td width="33%"><a href="config/walls/autumn2.jpg"><img src="config/walls/autumn2.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/autumnOnTheHudsonRiver.jpg"><img src="config/walls/autumnOnTheHudsonRiver.jpg"></a></td>
     <td width="33%"><a href="config/walls/battleofkulikovo.jpg"><img src="config/walls/battleofkulikovo.jpg"></a></td>
     <td width="33%"><a href="config/walls/battle_scenebyPhilipsWouwerman.jpg"><img src="config/walls/battle_scenebyPhilipsWouwerman.jpg"></a></td>
-    <td width="33%"><a href="config/walls/bay.jpg"><img src="config/walls/bay.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/bay.jpg"><img src="config/walls/bay.jpg"></a></td>
     <td width="33%"><a href="config/walls/black-and-white-2560x1440-21293.jpg"><img src="config/walls/black-and-white-2560x1440-21293.jpg"></a></td>
     <td width="33%"><a href="config/walls/blackhole.png"><img src="config/walls/blackhole.png"></a></td>
-    <td width="33%"><a href="config/walls/blackstars.jpg"><img src="config/walls/blackstars.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/blackstars.jpg"><img src="config/walls/blackstars.jpg"></a></td>
     <td width="33%"><a href="config/walls/brutal2.jpg"><img src="config/walls/brutal2.jpg"></a></td>
     <td width="33%"><a href="config/walls/brutal.jpg"><img src="config/walls/brutal.jpg"></a></td>
-    <td width="33%"><a href="config/walls/c2-mono.png"><img src="config/walls/c2-mono.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/c2-mono.png"><img src="config/walls/c2-mono.png"></a></td>
     <td width="33%"><a href="config/walls/c2.png"><img src="config/walls/c2.png"></a></td>
     <td width="33%"><a href="config/walls/cabin.png"><img src="config/walls/cabin.png"></a></td>
-    <td width="33%"><a href="config/walls/calming-nature-wallpaper-free-image.jpeg"><img src="config/walls/calming-nature-wallpaper-free-image.jpeg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/calming-nature-wallpaper-free-image.jpeg"><img src="config/walls/calming-nature-wallpaper-free-image.jpeg"></a></td>
     <td width="33%"><a href="config/walls/CatAtPlay-Henriette Ronner Knip.jpg"><img src="config/walls/CatAtPlay-Henriette Ronner Knip.jpg"></a></td>
     <td width="33%"><a href="config/walls/catppuccinfish.jpg"><img src="config/walls/catppuccinfish.jpg"></a></td>
-    <td width="33%"><a href="config/walls/catppuccin.png"><img src="config/walls/catppuccin.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/catppuccin.png"><img src="config/walls/catppuccin.png"></a></td>
     <td width="33%"><a href="config/walls/chessboardempty.png"><img src="config/walls/chessboardempty.png"></a></td>
     <td width="33%"><a href="config/walls/chessboard.png"><img src="config/walls/chessboard.png"></a></td>
-    <td width="33%"><a href="config/walls/city1cat.png"><img src="config/walls/city1cat.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/city1cat.png"><img src="config/walls/city1cat.png"></a></td>
     <td width="33%"><a href="config/walls/city1.jpg"><img src="config/walls/city1.jpg"></a></td>
     <td width="33%"><a href="config/walls/city1mono.png"><img src="config/walls/city1mono.png"></a></td>
-    <td width="33%"><a href="config/walls/city1nord.png"><img src="config/walls/city1nord.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/city1nord.png"><img src="config/walls/city1nord.png"></a></td>
     <td width="33%"><a href="config/walls/clay-banks-u27Rrbs9Dwc-unsplash.jpg"><img src="config/walls/clay-banks-u27Rrbs9Dwc-unsplash.jpg"></a></td>
     <td width="33%"><a href="config/walls/cobweb.jpg"><img src="config/walls/cobweb.jpg"></a></td>
-    <td width="33%"><a href="config/walls/commandingThesunToStandStill.png"><img src="config/walls/commandingThesunToStandStill.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/commandingThesunToStandStill.png"><img src="config/walls/commandingThesunToStandStill.png"></a></td>
     <td width="33%"><a href="config/walls/daniel-leone-v7daTKlZzaw-unsplash.jpg"><img src="config/walls/daniel-leone-v7daTKlZzaw-unsplash.jpg"></a></td>
     <td width="33%"><a href="config/walls/DarkGreySolid.png"><img src="config/walls/DarkGreySolid.png"></a></td>
-    <td width="33%"><a href="config/walls/dark-waves.png"><img src="config/walls/dark-waves.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/dark-waves.png"><img src="config/walls/dark-waves.png"></a></td>
     <td width="33%"><a href="config/walls/ddg_1774602436557979119.png"><img src="config/walls/ddg_1774602436557979119.png"></a></td>
     <td width="33%"><a href="config/walls/ddg_1774643182329880408.jpg"><img src="config/walls/ddg_1774643182329880408.jpg"></a></td>
-    <td width="33%"><a href="config/walls/ddg_1775598803350720201.jpg"><img src="config/walls/ddg_1775598803350720201.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/ddg_1775598803350720201.jpg"><img src="config/walls/ddg_1775598803350720201.jpg"></a></td>
     <td width="33%"><a href="config/walls/ddg_1775847870758437579.jpg"><img src="config/walls/ddg_1775847870758437579.jpg"></a></td>
     <td width="33%"><a href="config/walls/ddg_1775900995808972286.jpg"><img src="config/walls/ddg_1775900995808972286.jpg"></a></td>
-    <td width="33%"><a href="config/walls/ddg_1776100455582483901.jpg"><img src="config/walls/ddg_1776100455582483901.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/ddg_1776100455582483901.jpg"><img src="config/walls/ddg_1776100455582483901.jpg"></a></td>
     <td width="33%"><a href="config/walls/ddg_1776100455990583775.jpg"><img src="config/walls/ddg_1776100455990583775.jpg"></a></td>
     <td width="33%"><a href="config/walls/ddg_1776100457017603321.jpg"><img src="config/walls/ddg_1776100457017603321.jpg"></a></td>
-    <td width="33%"><a href="config/walls/ds3abysswatcherarena.jpg"><img src="config/walls/ds3abysswatcherarena.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/ds3abysswatcherarena.jpg"><img src="config/walls/ds3abysswatcherarena.jpg"></a></td>
     <td width="33%"><a href="config/walls/ds3gaelarena.jpg"><img src="config/walls/ds3gaelarena.jpg"></a></td>
     <td width="33%"><a href="config/walls/ds3irithyll.png"><img src="config/walls/ds3irithyll.png"></a></td>
-    <td width="33%"><a href="config/walls/ds3lothricarena.jpg"><img src="config/walls/ds3lothricarena.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/ds3lothricarena.jpg"><img src="config/walls/ds3lothricarena.jpg"></a></td>
     <td width="33%"><a href="config/walls/ds3vodrtarena.png"><img src="config/walls/ds3vodrtarena.png"></a></td>
     <td width="33%"><a href="config/walls/Eden.png"><img src="config/walls/Eden.png"></a></td>
-    <td width="33%"><a href="config/walls/evening-sky.png"><img src="config/walls/evening-sky.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/evening-sky.png"><img src="config/walls/evening-sky.png"></a></td>
     <td width="33%"><a href="config/walls/everforest2.jpg"><img src="config/walls/everforest2.jpg"></a></td>
     <td width="33%"><a href="config/walls/everforest3.png"><img src="config/walls/everforest3.png"></a></td>
-    <td width="33%"><a href="config/walls/everforest.png"><img src="config/walls/everforest.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/everforest.png"><img src="config/walls/everforest.png"></a></td>
     <td width="33%"><a href="config/walls/firelinkshrine.jpg"><img src="config/walls/firelinkshrine.jpg"></a></td>
     <td width="33%"><a href="config/walls/Flock1080p.png"><img src="config/walls/Flock1080p.png"></a></td>
-    <td width="33%"><a href="config/walls/flowerascii.png"><img src="config/walls/flowerascii.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/flowerascii.png"><img src="config/walls/flowerascii.png"></a></td>
     <td width="33%"><a href="config/walls/flower.png"><img src="config/walls/flower.png"></a></td>
     <td width="33%"><a href="config/walls/flowers-13.png"><img src="config/walls/flowers-13.png"></a></td>
-    <td width="33%"><a href="config/walls/flowers-1.png"><img src="config/walls/flowers-1.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/flowers-1.png"><img src="config/walls/flowers-1.png"></a></td>
     <td width="33%"><a href="config/walls/flowers-2.png"><img src="config/walls/flowers-2.png"></a></td>
     <td width="33%"><a href="config/walls/flowers-7.png"><img src="config/walls/flowers-7.png"></a></td>
-    <td width="33%"><a href="config/walls/frac1-mono.png"><img src="config/walls/frac1-mono.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/frac1-mono.png"><img src="config/walls/frac1-mono.png"></a></td>
     <td width="33%"><a href="config/walls/frac1.png"><img src="config/walls/frac1.png"></a></td>
     <td width="33%"><a href="config/walls/funwallpapercity.png"><img src="config/walls/funwallpapercity.png"></a></td>
-    <td width="33%"><a href="config/walls/galaxy.jpg"><img src="config/walls/galaxy.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/galaxy.jpg"><img src="config/walls/galaxy.jpg"></a></td>
     <td width="33%"><a href="config/walls/graytown.png"><img src="config/walls/graytown.png"></a></td>
     <td width="33%"><a href="config/walls/greenkatanaascii.png"><img src="config/walls/greenkatanaascii.png"></a></td>
-    <td width="33%"><a href="config/walls/greentree1080p.png"><img src="config/walls/greentree1080p.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/greentree1080p.png"><img src="config/walls/greentree1080p.png"></a></td>
     <td width="33%"><a href="config/walls/grid-me-1920x1080.png"><img src="config/walls/grid-me-1920x1080.png"></a></td>
     <td width="33%"><a href="config/walls/gruvbox1.jpg"><img src="config/walls/gruvbox1.jpg"></a></td>
-    <td width="33%"><a href="config/walls/gruvbox-dark.png"><img src="config/walls/gruvbox-dark.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/gruvbox-dark.png"><img src="config/walls/gruvbox-dark.png"></a></td>
     <td width="33%"><a href="config/walls/gruvbox_futurecity.png"><img src="config/walls/gruvbox_futurecity.png"></a></td>
     <td width="33%"><a href="config/walls/gruvcity.jpg"><img src="config/walls/gruvcity.jpg"></a></td>
-    <td width="33%"><a href="config/walls/gruvfuncity.png"><img src="config/walls/gruvfuncity.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/gruvfuncity.png"><img src="config/walls/gruvfuncity.png"></a></td>
     <td width="33%"><a href="config/walls/gruvhole.png"><img src="config/walls/gruvhole.png"></a></td>
     <td width="33%"><a href="config/walls/gruv.jpg"><img src="config/walls/gruv.jpg"></a></td>
-    <td width="33%"><a href="config/walls/Hammershøi_Tall_windows.jpg"><img src="config/walls/Hammershøi_Tall_windows.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/Hammershøi_Tall_windows.jpg"><img src="config/walls/Hammershøi_Tall_windows.jpg"></a></td>
     <td width="33%"><a href="config/walls/hollow.jpg"><img src="config/walls/hollow.jpg"></a></td>
     <td width="33%"><a href="config/walls/image0.png"><img src="config/walls/image0.png"></a></td>
-    <td width="33%"><a href="config/walls/image.png"><img src="config/walls/image.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/image.png"><img src="config/walls/image.png"></a></td>
     <td width="33%"><a href="config/walls/IvMjgUr.png"><img src="config/walls/IvMjgUr.png"></a></td>
     <td width="33%"><a href="config/walls/Jan_Matejko,_Bitwa_pod_Grunwaldem.jpg"><img src="config/walls/Jan_Matejko,_Bitwa_pod_Grunwaldem.jpg"></a></td>
-    <td width="33%"><a href="config/walls/jms-kFHz9Xh3PPU-unsplash.jpg"><img src="config/walls/jms-kFHz9Xh3PPU-unsplash.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/jms-kFHz9Xh3PPU-unsplash.jpg"><img src="config/walls/jms-kFHz9Xh3PPU-unsplash.jpg"></a></td>
     <td width="33%"><a href="config/walls/john-towner-3Kv48NS4WUU-unsplash.jpg"><img src="config/walls/john-towner-3Kv48NS4WUU-unsplash.jpg"></a></td>
     <td width="33%"><a href="config/walls/jupiter2.jpg"><img src="config/walls/jupiter2.jpg"></a></td>
-    <td width="33%"><a href="config/walls/jupiter3.jpg"><img src="config/walls/jupiter3.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/jupiter3.jpg"><img src="config/walls/jupiter3.jpg"></a></td>
     <td width="33%"><a href="config/walls/jupiter.jpg"><img src="config/walls/jupiter.jpg"></a></td>
     <td width="33%"><a href="config/walls/kanagawahole.png"><img src="config/walls/kanagawahole.png"></a></td>
-    <td width="33%"><a href="config/walls/l_ash09_big.png"><img src="config/walls/l_ash09_big.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/l_ash09_big.png"><img src="config/walls/l_ash09_big.png"></a></td>
     <td width="33%"><a href="config/walls/linuxwallpaper2.png"><img src="config/walls/linuxwallpaper2.png"></a></td>
     <td width="33%"><a href="config/walls/linuxwallpaper3.png"><img src="config/walls/linuxwallpaper3.png"></a></td>
-    <td width="33%"><a href="config/walls/linuxwallpaper.png"><img src="config/walls/linuxwallpaper.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/linuxwallpaper.png"><img src="config/walls/linuxwallpaper.png"></a></td>
     <td width="33%"><a href="config/walls/LpUcwjZ.jpg"><img src="config/walls/LpUcwjZ.jpg"></a></td>
     <td width="33%"><a href="config/walls/manga-hands.png"><img src="config/walls/manga-hands.png"></a></td>
+  </tr>
+  <tr>
     <td width="33%"><a href="config/walls/milkchanroom.png"><img src="config/walls/milkchanroom.png"></a></td>
+    <td width="33%"><a href="config/walls/minecraft10.png"><img src="config/walls/minecraft10.png"></a></td>
+    <td width="33%"><a href="config/walls/minecraft11.png"><img src="config/walls/minecraft11.png"></a></td>
+  </tr>
+  <tr>
+    <td width="33%"><a href="config/walls/minecraft12.png"><img src="config/walls/minecraft12.png"></a></td>
+    <td width="33%"><a href="config/walls/minecraft2.png"><img src="config/walls/minecraft2.png"></a></td>
+    <td width="33%"><a href="config/walls/minecraft3.png"><img src="config/walls/minecraft3.png"></a></td>
+  </tr>
+  <tr>
+    <td width="33%"><a href="config/walls/minecraft4.png"><img src="config/walls/minecraft4.png"></a></td>
+    <td width="33%"><a href="config/walls/minecraft5.png"><img src="config/walls/minecraft5.png"></a></td>
+    <td width="33%"><a href="config/walls/minecraft6.png"><img src="config/walls/minecraft6.png"></a></td>
+  </tr>
+  <tr>
+    <td width="33%"><a href="config/walls/minecraft7.png"><img src="config/walls/minecraft7.png"></a></td>
+    <td width="33%"><a href="config/walls/minecraft8.png"><img src="config/walls/minecraft8.png"></a></td>
+    <td width="33%"><a href="config/walls/minecraft9.png"><img src="config/walls/minecraft9.png"></a></td>
   </tr>
   <tr>
     <td width="33%"><a href="config/walls/minecraft.png"><img src="config/walls/minecraft.png"></a></td>
