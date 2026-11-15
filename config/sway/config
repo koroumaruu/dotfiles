@@ -24,10 +24,10 @@ exec --no-startup-id /usr/lib/xdg-desktop-portal-wlr &
 exec --no-startup-id /usr/lib/xdg-desktop-portal -r
 
 #wallpaper
-output * bg ~/walls/DarkGreySolid.png fill
+# output * bg ~/walls/DarkGreySolid.png fill
 #OR
 #install waypaper for wallaper (NEEDS SWAYBG)
-# exec_always --no-startup-id waypaper --restore
+exec_always --no-startup-id waypaper --restore
 
 font Pango:JetBrains mono 8
 
@@ -214,7 +214,7 @@ gaps inner 8
 gaps outer 5
 
 #borders
-default_border pixel 3
+default_border pixel 2
 default_floating_border pixel 1
 smart_borders on
 bindsym $mod+c border toggle 
