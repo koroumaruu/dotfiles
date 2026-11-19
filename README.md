@@ -371,46 +371,48 @@
   <tr>
     <td width="33%"><a href="config/walls/TheCourseOfEmpireDesolation.jpeg"><img src="config/walls/TheCourseOfEmpireDesolation.jpeg"></a></td>
     <td width="33%"><a href="config/walls/TheCourseOfEmpireDestruction.jpg"><img src="config/walls/TheCourseOfEmpireDestruction.jpg"></a></td>
-    <td width="33%"><a href="config/walls/thumb-1920-563119.jpg"><img src="config/walls/thumb-1920-563119.jpg"></a></td>
+    <td width="33%"><a href="config/walls/thevoyageoflifeoldage.jpeg"><img src="config/walls/thevoyageoflifeoldage.jpeg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/thumb-1920-563119.jpg"><img src="config/walls/thumb-1920-563119.jpg"></a></td>
     <td width="33%"><a href="config/walls/tornado.jpg"><img src="config/walls/tornado.jpg"></a></td>
     <td width="33%"><a href="config/walls/towashi.jpg"><img src="config/walls/towashi.jpg"></a></td>
-    <td width="33%"><a href="config/walls/treeblue.jpg"><img src="config/walls/treeblue.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/treeblue.jpg"><img src="config/walls/treeblue.jpg"></a></td>
     <td width="33%"><a href="config/walls/treedark.jpg"><img src="config/walls/treedark.jpg"></a></td>
     <td width="33%"><a href="config/walls/treegruv.jpg"><img src="config/walls/treegruv.jpg"></a></td>
-    <td width="33%"><a href="config/walls/tree.jpg"><img src="config/walls/tree.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/tree.jpg"><img src="config/walls/tree.jpg"></a></td>
     <td width="33%"><a href="config/walls/tslamcold.png"><img src="config/walls/tslamcold.png"></a></td>
     <td width="33%"><a href="config/walls/tslam.png"><img src="config/walls/tslam.png"></a></td>
-    <td width="33%"><a href="config/walls/tyler-lastovich-ddLiNMqWAOM-unsplash.jpg"><img src="config/walls/tyler-lastovich-ddLiNMqWAOM-unsplash.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/tyler-lastovich-ddLiNMqWAOM-unsplash.jpg"><img src="config/walls/tyler-lastovich-ddLiNMqWAOM-unsplash.jpg"></a></td>
     <td width="33%"><a href="config/walls/ursa-major-ursa-minor-constellations.jpg"><img src="config/walls/ursa-major-ursa-minor-constellations.jpg"></a></td>
     <td width="33%"><a href="config/walls/ursa-major-ursa-minor.jpg"><img src="config/walls/ursa-major-ursa-minor.jpg"></a></td>
-    <td width="33%"><a href="config/walls/valley.jpg"><img src="config/walls/valley.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/valley.jpg"><img src="config/walls/valley.jpg"></a></td>
     <td width="33%"><a href="config/walls/wallhaven-8gk9vy.png"><img src="config/walls/wallhaven-8gk9vy.png"></a></td>
     <td width="33%"><a href="config/walls/wallhaven-pow71p.png"><img src="config/walls/wallhaven-pow71p.png"></a></td>
-    <td width="33%"><a href="config/walls/wallpaperbetter.com_3840x2160_1.jpg"><img src="config/walls/wallpaperbetter.com_3840x2160_1.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/wallpaperbetter.com_3840x2160_1.jpg"><img src="config/walls/wallpaperbetter.com_3840x2160_1.jpg"></a></td>
     <td width="33%"><a href="config/walls/window.jpg"><img src="config/walls/window.jpg"></a></td>
     <td width="33%"><a href="config/walls/winter2.jpg"><img src="config/walls/winter2.jpg"></a></td>
-    <td width="33%"><a href="config/walls/winter3.jpg"><img src="config/walls/winter3.jpg"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/winter3.jpg"><img src="config/walls/winter3.jpg"></a></td>
     <td width="33%"><a href="config/walls/winter4.jpg"><img src="config/walls/winter4.jpg"></a></td>
     <td width="33%"><a href="config/walls/winter5.png"><img src="config/walls/winter5.png"></a></td>
-    <td width="33%"><a href="config/walls/winter6.png"><img src="config/walls/winter6.png"></a></td>
   </tr>
   <tr>
+    <td width="33%"><a href="config/walls/winter6.png"><img src="config/walls/winter6.png"></a></td>
     <td width="33%"><a href="config/walls/winter.jpg"><img src="config/walls/winter.jpg"></a></td>
     <td width="33%"><a href="config/walls/wp.jpg"><img src="config/walls/wp.jpg"></a></td>
-    <td width="33%"><a href="config/walls/yosemite.jpg"><img src="config/walls/yosemite.jpg"></a></td>
   </tr>
+  <tr>
+    <td width="33%"><a href="config/walls/yosemite.jpg"><img src="config/walls/yosemite.jpg"></a></td>
 </table>
