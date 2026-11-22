@@ -11,7 +11,8 @@ set $menu rofi -show drun
 set $filemanager thunar
 set $termfilemanager foot yazi
 set $editor foot nvim
-set $anime foot -e sh -c "cd ~/ani-cli && ./ani-cli"
+set $web firefox
+set $output yapfast
 
 #adds a network applet to your system tray if you have it installed (if youre using nm-applet that is, otherwise delete this line)
 exec_always --no-startup-id nm-applet &
@@ -34,7 +35,7 @@ font Pango:JetBrains mono 8
 #use swaymsg -t get_inputs for the names
 #trackpoint sensitivity
 input "2:10:TPPS/2_Elan_TrackPoint" {
-	pointer_accel 0.5
+	pointer_accel 0.3
 	accel_profile "flat"
 }
 
@@ -90,7 +91,8 @@ bar {
     # Keybinds
     bindsym $mod+t exec $filemanager
     bindsym $mod+y exec $termfilemanager
-    bindsym $mod+g exec $anime
+    bindsym $mod+i exec $web
+    bindsym $mod+o exec $output
     bindsym $mod+n exec $editor
 
     # Screenshots and colorpicker (Install the sway-contrib package on your distro, use hyprpicker if you need an alternative colorpicker beyond grimpicker)
