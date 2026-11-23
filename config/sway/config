@@ -12,7 +12,7 @@ set $filemanager thunar
 set $termfilemanager foot yazi
 set $editor foot nvim
 set $web firefox
-set $output yapfast
+set $output foot -e concord 
 
 #adds a network applet to your system tray if you have it installed (if youre using nm-applet that is, otherwise delete this line)
 exec_always --no-startup-id nm-applet &

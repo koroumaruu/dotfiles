@@ -16,8 +16,16 @@ alias pkgin='sudo nala install'
 # 	echo "Unknown pkg command: $1"
 #     fi
 
+#NIXOS STUFF
 #update
 # alias upd='sudo nix-channel --update && sudo nixos-rebuild switch --upgrade'
+# alias nrs='sudo nixos-rebuild switch'
+# alias pkg='sudo $EDITOR /etc/nixos/configruation.nix'
+
+#garbage collection and optimization
+#alias ngc='sudo nix-collect-garbage -d'
+#alias nopt='nix-store --optimise'
+
 
 
 alias ytd='yt-dlp -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --embed-metadata --convert-thumbnails jpg --ppa "ThumbnailsConvertor+ffmpeg_o:-vf crop=ih:ih" -o "%(playlist_index)03d - %(title)s.%(ext)s" --cookies-from-browser firefox'
